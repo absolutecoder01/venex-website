@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap'); 
+
+body
+{
+  background-image: url("test.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Rubik 80s Fade', cursive;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/* html, body */
+
+  /* height: 100%;
+  width: 100%; */
+body
+{
+  margin-left: 170px;
+  padding-left: 10px;
+  overflow-x: hidden; 
+}
+.logo_venex
+{
+  float: right;
+  margin-right: 30px;
+  margin-top: 100px;
+  box-sizing: border-box;
+  border: 3px solid red;
+  box-shadow: 0 0 1px #fd2626, 0 0 2px #ff2e2e, 0 0 6px #f72222, 0 0 12px #ff0000, inset 0 0 1px #f42a2a, inset 0 0 2px #ff5252, inset 0 0 6px #e82121, inset 0 0 12px #f50000;
+}
+
+.naglowek
+{
+    margin-top: 180px;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Rubik Vinyl', cursive;
+    letter-spacing: 5px;
+    margin-left: 175px;
+    font-size: 110px;
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+  
+  }
+
+@keyframes flicker {
+    
+  0%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #f02424,
+      0 0 80px #ff0000,
+      0 0 90px #ff0000,
+      0 0 100px #ff0000,
+      0 0 150px #ff0000;
+  
+  }
+   
+}
+@media (min-width:1000px;) {
+  .naglowek
+  {
+    margin: 10px;
+    letter-spacing: 0px;
+    margin-left: 175px;
+    font-size: 110px;
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+  }
+
+  .sidebar {
+  background-color: black;
+  overflow: hidden;
+  }
+
+
+  .sidebar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+
+
+  .sidebar a:hover {
+  background-color: #ddd;
+  color: red;
+  }
+
+

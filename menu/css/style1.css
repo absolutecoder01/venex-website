@@ -1,0 +1,79 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap'); */
+
+body
+{
+  background-image: url("test.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  overflow-y: hidden;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Rubik 80s Fade', cursive;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/* html, body */
+
+  /* height: 100%;
+  width: 100%; */
+body
+{
+  margin-left: 170px;
+  padding-left: 10px;
+  overflow-x: hidden; 
+}
+.logo_venex
+{
+  float: right;
+  margin-right: 30px;
+
+  box-sizing: border-box;
+  border: 3px solid red;
+  box-shadow: 0 0 1px #fd2626, 0 0 2px #ff2e2e, 0 0 6px #f72222, 0 0 12px #ff0000, inset 0 0 1px #f42a2a, inset 0 0 2px #ff5252, inset 0 0 6px #e82121, inset 0 0 12px #f50000;
+}
+
+.naglowek
+{
+    margin-top: 30px;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Rubik Vinyl', cursive;
+    letter-spacing: 5px;
+    margin-left: 175px;
+    color: white;
+    font-weight: larger;
+  }

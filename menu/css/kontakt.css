@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+
+body
+{
+  background-image: url('/backgrounds/gfxpack3d6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Rubik 80s Fade', cursive;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/* html, body */
+
+  /* height: 100%;
+  width: 100%; */
+body
+{
+  margin-left: 170px;
+  padding-left: 10px;
+  overflow-x: hidden; 
+}
+.logo_venex
+{
+  float: right;
+  margin-right: 30px;
+
+  box-sizing: border-box;
+  border: 3px solid red;
+  box-shadow: 0 0 1px #fd2626, 0 0 2px #ff2e2e, 0 0 6px #f72222, 0 0 12px #ff0000, inset 0 0 1px #f42a2a, inset 0 0 2px #ff5252, inset 0 0 6px #e82121, inset 0 0 12px #f50000;
+}
+
+.naglowek
+{
+    margin-top: 50px;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Rubik Vinyl', cursive;
+    letter-spacing: 5px;
+    margin-left: 90px;
+    font-size: 110px;
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+  
+  }
+
+@keyframes flicker {
+    
+  0%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #f02424,
+      0 0 80px #ff0000,
+      0 0 90px #ff0000,
+      0 0 100px #ff0000,
+      0 0 150px #ff0000;
+  
+  }
+   
+}
+
+h4 {
+  font-family: 'Unbounded', cursive;
+  color: #fff;
+  font-size: 75px;
+  margin-left: 30px;
+}
+.sam_id {
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sam_mail {
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+}
+.id_w_standofie {
+  margin-top: 70px;
+  animation: flicker 1.5s infinite alternate;
+    color: #fff;
+  font-size: 32px;
+}
+.e_mail {
+  font-size: 32px;
+  margin-top: 25px;
+  animation: flicker 1.5s infinite alternate;
+    color: #fff;
+}
